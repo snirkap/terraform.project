@@ -1,5 +1,5 @@
 # terraform.project
-## Here you can see a diagram explaining the project
+## Here you can see a diagram explaining the project:
 
 
 ![terraform (8)](https://github.com/snirkap/terraform.project/assets/120733215/14e1be6d-3c65-4252-8cd6-5b789775f395)
