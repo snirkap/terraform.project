@@ -1,4 +1,7 @@
 # terraform.project
+## Here you can see a diagram explaining the project
+
+![terraform](https://github.com/snirkap/terraform.project/assets/120733215/67c418f1-915d-4892-9896-8fe954df2d2c)
 
 ## requirements:
 1. aws account
