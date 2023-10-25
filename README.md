@@ -1,7 +1,8 @@
 # terraform.project
 ## Here you can see a diagram explaining the project
 
-![terraform (4)](https://github.com/snirkap/terraform.project/assets/120733215/001fa9ba-4463-435a-be41-0a0ce12762ea)
+
+![terraform (8)](https://github.com/snirkap/terraform.project/assets/120733215/14e1be6d-3c65-4252-8cd6-5b789775f395)
 
 
 ## requirements:
