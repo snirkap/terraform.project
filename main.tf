@@ -53,7 +53,7 @@ resource "aws_s3_bucket_policy" "web_surf_s3_policy" {
 resource "aws_s3_object" "image_upload" {
   bucket = aws_s3_bucket.web_surf_s3.id
   key    = "rafael-leao-PzmmiWoJHA8-unsplash.jpg"
-  source = "rafael-leao-PzmmiWoJHA8-unsplash.jpg"  # replace with your local image path
+  source = "rafael-leao-PzmmiWoJHA8-unsplash.jpg"  
 }
 
 # Security groups
@@ -129,7 +129,7 @@ resource "aws_iam_instance_profile" "ec2_s3" {
 # Launch template for ASG
 resource "aws_launch_template" "asg_template" {
   name_prefix   = "lt-"
-  image_id      = "ami-0df435f331839b2d6"  # replace with the correct AMI ID for Amazon Linux 2023
+  image_id      = "ami-0df435f331839b2d6"
   instance_type = "t2.micro"
   key_name      = "snir-project"
 
@@ -264,7 +264,7 @@ resource "aws_cloudfront_distribution" "cloudfront_dist" {
 
 # Create a Route 53 record pointing to the CloudFront distribution
 resource "aws_route53_record" "cloudfront_alias" {
-  zone_id = "Z02699943I5DTUSUR4A3X"  # Replace with the actual Route 53 hosted zone ID for surfsupsnir.com
+  zone_id = "Z02699943I5DTUSUR4A3X"  # Replace with the Route 53 hosted zone ID for your dns name 
   name    = "surfsupsnir.com"
   type    = "A"
   alias {
