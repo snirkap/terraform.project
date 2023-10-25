@@ -2,7 +2,8 @@
 ## Here you can see a diagram explaining the project:
 
 
-![terraform (8)](https://github.com/snirkap/terraform.project/assets/120733215/14e1be6d-3c65-4252-8cd6-5b789775f395)
+![terraform (5)](https://github.com/snirkap/terraform.project/assets/120733215/02ff1f9b-0a7e-4042-9102-5aef517b286e)
+
 
 
 ## requirements:
