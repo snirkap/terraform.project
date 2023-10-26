@@ -1,9 +1,10 @@
-# terraform.project
+# Terraform.project
 ## Here you can see a diagram explaining the project:
 
 
+![terraform (10)](https://github.com/snirkap/terraform.project/assets/120733215/083607a7-0d56-44f5-bd23-88a12b17687f)
 
-![terraform (9)](https://github.com/snirkap/terraform.project/assets/120733215/7569d010-982e-45f7-9820-d8c0d6c228e1)
+
 
 
 ## AWS Web Architecture with Terraform:
@@ -12,14 +13,15 @@ This project defines a scalable AWS web architecture using Terraform. It employs
 1. aws account
 2. terraform installed in your local machine
 3. aws cli installed in your local machine
-### tutorial
+### Setup
 1. git clone https://github.com/snirkap/terraform.project.git
 2. write "aws configure" command and follow the prompts.
-3. in the main.tf file in the ALB & target group you need to change the subnet_id in mapping_id to the subnets that you wnat the alb will work on, and in the vpc_id Replace with your VPC ID.
-4. in the main.tf in the cloudFront section you need to change the alias to your dns name and in the acm_certificate_arn you need to write your the ssl certificate for your dns name.
-5. in the main.tf in the route 53 section you need to Replace with the Route 53 hosted zone ID for your dns name in zone_id and also change the name into your dns name.
-6. write "terraform init" command.
-7. write "terraform apply" command.
+3. **main.tf file:**
+   * in ALB & target group you need to change the subnet_id in mapping_id to the subnets that you wnat the alb will work on, and in the vpc_id Replace with your VPC ID.
+   * in cloudFront section you need to change the alias to your dns name and in the acm_certificate_arn you need to write your the ssl certificate for your dns name.
+   * in route 53 section you need to Replace with the Route 53 hosted zone ID for your dns name in zone_id and also change the name into your dns name.
+4. write "terraform init" command.
+5. write "terraform apply" command.
 
 
 
