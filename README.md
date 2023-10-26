@@ -13,7 +13,7 @@ This project defines a scalable AWS web architecture using Terraform. It employs
 1. aws account
 2. terraform installed in your local machine
 3. aws cli installed in your local machine
-### Setup
+### Setup:
 1. git clone https://github.com/snirkap/terraform.project.git
 2. write "aws configure" command and follow the prompts.
 3. **main.tf file:**
